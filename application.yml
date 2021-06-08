@@ -26,11 +26,4 @@
 #
 #
 #
-spring:
-  cloud:
-    gateway:
-      routes:
-        - id : guides
-          predicates:
-            - Path=/guides
-          uri: https://spring.io
+message =this is the default application
